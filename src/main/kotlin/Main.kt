@@ -21,6 +21,7 @@ fun App() {
     FlowGraph()
 }
 
+val WINDOW_HEIGHT = 700
 val TOTAL_ELEMENT_HEIGHT = 800
 val TALL_ELEMENT_HEIGHT = TOTAL_ELEMENT_HEIGHT
 val TALL_ELEMENT_OFFSET = TOTAL_ELEMENT_HEIGHT - TALL_ELEMENT_HEIGHT
@@ -92,7 +93,7 @@ fun FlowGraph() {
 
 
 fun main() = application {
-    val windowState = remember { WindowState(size = DpSize(1600.dp, 700.dp)) }
+    val windowState = remember { WindowState(size = DpSize(1600.dp, WINDOW_HEIGHT.dp)) }
     Window(
         state = windowState,
         onCloseRequest = ::exitApplication
