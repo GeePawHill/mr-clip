@@ -3,10 +3,11 @@ mr-clip -- A minimal reproducible of a possible bug in Compose Desktop
 The bug: the desktop window appears to be sizing certain elements instead of clipping them.
 
 Versions:
-os=Windows 10
-jdk=temurin-21.0.6
-kotlin.version=1.9.22
-compose.version=1.6.0
+
+* os=Windows 10
+* jdk=temurin-21.0.6
+* kotlin.version=1.9.22
+* compose.version=1.6.0
 
 Demonstration
 ----
